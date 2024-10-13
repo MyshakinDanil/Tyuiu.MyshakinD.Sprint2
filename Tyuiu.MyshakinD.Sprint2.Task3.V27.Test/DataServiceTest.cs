@@ -10,7 +10,7 @@ namespace Tyuiu.MyshakinD.Sprint2.Task3.V27.Test
         {
             DataService ds = new DataService();
             int x = -5;
-            var res = Math.Round(ds.Calculate(x), 3);
+            var res = ds.Calculate(x);
             double wait = 1.082;
             Assert.AreEqual(wait, res);
         }

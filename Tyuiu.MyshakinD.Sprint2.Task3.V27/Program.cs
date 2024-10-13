@@ -26,7 +26,7 @@ namespace Tyuiu.MyshakinD.Sprint2.Task3.V27
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Введите X:");
             double x = Convert.ToDouble(Console.ReadLine());
-            var y = Math.Round(ds.Calculate(x), 3);
+            var y = ds.Calculate(x);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
