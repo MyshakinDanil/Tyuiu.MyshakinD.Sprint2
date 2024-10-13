@@ -13,31 +13,31 @@ namespace Tyuiu.MyshakinD.Sprint2.Task5.V6.Lib
             switch (value2)
             {
                 case 6:
-                    mast = "Шестерка";
+                    mast = "шестерка";
                     break;
                 case 7:
-                    mast = "Семерка";
+                    mast = "семерка";
                     break;
                 case 8:
-                    mast = "Восьмерка";
+                    mast = "восьмерка";
                     break;
                 case 9:
-                    mast = "Девятка";
+                    mast = "девятка";
                     break;
                 case 10:
-                    mast = "Десятка";
+                    mast = "десятка";
                     break;
                 case 11:
-                    mast = "Валет";
+                    mast = "валет";
                     break;
                 case 12:
-                    mast = "Дама";
+                    mast = "дама";
                     break;
                 case 13:
-                    mast = "Король";
+                    mast = "король";
                     break;
                 case 14:
-                    mast = "Туз";
+                    mast = "туз";
                     break;
                 default:
                     throw new ArgumentException($"Карта должна быть от 6 до 14. Значение {value1}");
